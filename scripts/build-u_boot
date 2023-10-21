@@ -1,12 +1,12 @@
 #!/bin/sh
-# Download and build latest version of U-Boot
+# Download and build the latest version of U-Boot
 
 DEFCONFIG="${1}" # For example "rpi_3_defconfig"
 TUPLE="${2}" # For example "aarch64-linux-gnu"
 
 set -ex
 
-U_BOOT_GIT_URL_DEFAULT="https://source.denx.de/u-boot/u-boot.git/"
+U_BOOT_GIT_URL_DEFAULT="https://github.com/BerranRemzi/u-boot.git/"
 
 if [ ! -z "${U_BOOT_GIT_REV}" ]
 then
