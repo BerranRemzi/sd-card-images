@@ -1,8 +1,8 @@
 OS,Dist,Arch,Name,Exp
-debian,bullseye,armhf,"Debian oldstable/11.7 (""bullseye"")",False
-debian,bullseye,arm64,"Debian oldstable/11.7 (""bullseye"")",False
-debian,bookworm,armhf,"Debian stable/12.1 (""bookworm"")",False
-debian,bookworm,arm64,"Debian stable/12.1 (""bookworm"")",False
+debian,bullseye,armhf,"Debian oldstable/11.8 (""bullseye"")",False
+debian,bullseye,arm64,"Debian oldstable/11.8 (""bullseye"")",False
+debian,bookworm,armhf,"Debian stable/12.2 (""bookworm"")",False
+debian,bookworm,arm64,"Debian stable/12.2 (""bookworm"")",False
 debian,trixie,armhf,"Debian testing (""trixie"")",False
 debian,trixie,arm64,"Debian testing (""trixie"")",False
 debian,sid,armhf,"Debian unstable (""sid"")",False
@@ -15,5 +15,5 @@ ubuntu,jammy,armhf,"Ubuntu 22.04 LTS (""jammy"")",False
 ubuntu,jammy,arm64,"Ubuntu 22.04 LTS (""jammy"")",False
 ubuntu,lunar,armhf,"Ubuntu 23.04 (""lunar"")",False
 ubuntu,lunar,arm64,"Ubuntu 23.04 (""lunar"")",False
-ubuntu,mantic,armhf,"Ubuntu 23.10 (""mantic"")",True
-ubuntu,mantic,arm64,"Ubuntu 23.10 (""mantic"")",True
+ubuntu,mantic,armhf,"Ubuntu 23.10 (""mantic"")",False
+ubuntu,mantic,arm64,"Ubuntu 23.10 (""mantic"")",False
