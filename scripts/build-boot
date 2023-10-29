@@ -7,6 +7,8 @@ DEFCONFIG="${3}" # For example "Bananapi_defconfig"
 TUPLE="${4}" # For example "arm-linux-gnueabihf"
 
 set -ex
+# Add the current directory to the system's PATH to make scripts in this directory accessible from anywhere
+PATH=$PATH:`pwd`
 
 # Create fresh empty directory
 TMP=$(mktemp -d -p "${PWD}" tmp-XXXXXX)
